@@ -68,13 +68,14 @@ list-style: none;
     color: var(--color-blue);
 }
 .foot-address-link{
-    color: var(--color-grey);
+    color:  #FFFFFF 60 %;
 }
 .foot-address-link:hover{
     color: var(--color-white);
 }
 .promo-section{
     background-color: var(--color-dark-grey);
+    padding: 0px;
 }
 .promo{
     color: var(--color-white);
@@ -105,6 +106,11 @@ display: flex;
   justify-content: center;
   align-items: center;
 }
+.promo-button:hover{
+    background-color:#188CE8;
+    ;
+}
+
 .section2-list{
     list-style: none;
 }
@@ -133,6 +139,9 @@ text-align: center;
 }
 .images-list{
     list-style: none;
+}
+.team-section{
+    background-color: var(--color-light-grey);
 }
 .our-team{
  font-weight: 700;
@@ -222,7 +231,7 @@ color: var(--color-white);
 }
 .content-list{
     list-style: none;}
-.cell-title{
+.img-title{
  font-style: normal;
  font-weight: bold;
  font-size: 18px;
@@ -230,7 +239,7 @@ color: var(--color-white);
  letter-spacing: 0.06em;
  color: var(--color-black);
 }
-.cell-text{
+.img-text{
 font-size: 16px;
 line-height: 1.6;
 letter-spacing: 0.03em;
